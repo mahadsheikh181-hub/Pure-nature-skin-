@@ -1,10 +1,10 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pure Nature - Tea Tree Serum</title>
-    <style>
-        body { font-family: sans-serif; margin: 0; padding: 0; background: #0b0f0d; color: white; text-align: center; }
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+<title>Pure Nature - Tea Tree Serum</title>
+ <style>
+body { font-family: sans-serif; margin: 0; padding: 0; background: #0b0f0d; color: white; text-align:}
         .banner { background: #d90429; color: white; padding: 12px; font-weight: bold; font-size: 14px; position: sticky; top: 0; z-index: 1000; }
         header { background: #1b4332; padding: 20px; border-bottom: 3px solid #22c55e; }
         .container { max-width: 450px; margin: auto; padding: 15px; }
