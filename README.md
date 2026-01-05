@@ -34,7 +34,7 @@
 </head>
 <body>
  <div class="banner"> 🔥 LIMITED TIME: 35% OFF + FREE GIFT ON ALL ORDERS! 🎁 </div> 
- <header><h2 style="margin:10px;">PURE NATURE SKINCARE</h2></header>
+ <header><h2 style="margin:0;40px;">PURE NATURE SKINCARE</h2></header>
     <div class="container">        
         <div class="trust-banner">🏆 50,000+ Verified Happy Customers</div>
 <div class="stock-container">
