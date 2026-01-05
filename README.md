@@ -104,7 +104,7 @@
         ];
         const list = document.getElementById('reviews-list');
         reviews.forEach(rev => {
-            list.innerHTML += `<div class="review-card"><span class="verified-tag">Verified Buyer</span><strong>${rev.n} <small style="color:#888;">— ${rev.c}</small></strong><div class="stars">★★★★★</div><p class="review-text">"${rev.r}"</p></div>`;
+            list.innerHTML += `<div class="review-card"><span class="verified-tag">Verified Buyer</span><strong>${rev.n} <small style="color:#888;">— ${rev.c}</small></strong><div class="stars">★★★★</div><p class="review-text">"${rev.r}"</p></div>`;
         });
         function sendOrder() {
             const name = document.getElementById('custName').value;
