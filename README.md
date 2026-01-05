@@ -2,11 +2,10 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pure Nature - Tea Tree Serum | Official Store</title>
-    <style>
-        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 0; padding: 0; background: #0b0f0d; color: white; text-align: center; line-height: 1.6; }
-        .banner { background: #d90429; color: white; padding: 12px; font-weight: bold; font-size: 14px; position: sticky; top: 0; z-index: 1000; }
-        header { background: #1b4332; padding: 25px; border-bottom: 4px solid #22c55e; box-shadow: 0 4px 15px rgba(0,0,0,0.5); }
+<title>Pure Nature - Tea Tree Serum | Official Store</title>
+ <style> body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 0; padding: 0; background: #0b0f0d; color: white; text-align: center; line-height: 1.6; }
+.banner { background: #d90429; color: white; padding: 12px; font-weight: bold; font-size: 14px; position: sticky; top: 0; z-index: 1000; }
+ header { background: #1b4332; padding: 25px; border-bottom: 4px solid #22c55e; box-shadow: 0 4px 15px rgba(0,0,0,0.5); }
         .container { max-width: 480px; margin: auto; padding: 15px; }        
  .trust-banner { background: linear-gradient(90deg, #1b4332, #22c55e); color: white; padding: 15px; border-radius: 15px; margin: 15px 0; font-weight: bold; font-size: 16px; border: 1px solid #ffffff33; box-shadow: 0 5px 15px rgba(34, 197, 94, 0.3); }        
         .stock-container { background: #161b18; border-radius: 12px; padding: 15px; margin: 20px 0; border: 1px solid #2d3631; }
