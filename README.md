@@ -23,16 +23,13 @@
     </style>
 </head>
 <body>
-
-    <div class="banner"> LIMITED TIME OFFER: FREE DELIVERY + 35% OFF </div>
+<div class="banner"> LIMITED TIME OFFER: FREE DELIVERY + 35% OFF </div>
     <header><h2>Pure Nature Skin Care</h2></header>
-
-    <div class="container">
+<div class="container">
         <img src="https://i.postimg.cc/YCzn3Psq/1767535757518.jpg" class="product-img">
         <h2 style="margin:0; color:#22c55e;">Tea Tree Face Serum</h2>
         <div class="price">Rs. 1800/-</div>
-
-        <div class="card">
+<div class="card">
             <h3 style="color:#22c55e; margin-top:0;">Product Benefits</h3>
             <ul class="benefits">
                 <li>Eliminates Acne & Pimples</li>
@@ -41,25 +38,22 @@
                 <li>Deep Skin Hydration & Glow</li>
             </ul>
         </div>
-
-        <div class="card" id="order-form">
+<div class="card" id="order-form">
             <h3 style="text-align:center; color:#22c55e; margin-top:0;">Shipping Details</h3>
             <input type="text" id="custName" class="input-box" placeholder="Your Full Name">
             <input type="text" id="custAddress" class="input-box" placeholder="Complete Address (City Name)">
             <input type="tel" id="custPhone" class="input-box" placeholder="Phone / WhatsApp Number">
             <button class="btn" onclick="sendOrder()">CONFIRM ORDER NOW ✅</button>
         </div>
-
-        <h3 style="color:#22c55e;">Customer Reviews (1000+)</h3>
+  <h3
+        style="color:#22c55e;">Customer Reviews (1000+)</h3>
         <div id="reviews-list"></div>
         <div style="height: 100px;"></div>
     </div>
-
-    <div class="sticky-btn">
-        <button class="btn" onclick="document.getElementById('order-form').scrollIntoView({behavior: 'smooth'})">ORDER NOW - RS. 1800</button>
+  <div class="sticky-btn">
+    <button class="btn" onclick="document.getElementById('order-form').scrollIntoView({behavior: 'smooth'})">ORDER NOW - RS. 1800</button>
     </div>
-
-    <script>
+<script>
         const reviews = [
             {n:"Ayesha Khan", c:"Lahore", r:"Amazing results! Pimples cleared in 3 days."},
             {n:"Mariam Ali", c:"Karachi", r:"Best for oily skin. Non-greasy and effective."},
@@ -87,8 +81,7 @@
             {n:"Sidra", c:"Okara", r:"Clear skin in just 10 days. Amazing!"},
             {n:"Umm-e-Hani", c:"Sukkur", r:"Must buy for anyone with oily skin."}
         ];
-
-        const list = document.getElementById('reviews-list');
+   const list = document.getElementById('reviews-list');
         reviews.forEach(rev => {
             list.innerHTML += `
                 <div class="card" style="margin-bottom:12px; padding:15px;">
@@ -98,7 +91,6 @@
                     <p class="review-text">"${rev.r}"</p>
                 </div>`;
         });
-
         function sendOrder() {
             let name = document.getElementById('custName').value;
             let addr = document.getElementById('custAddress').value;
