@@ -2,116 +2,197 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Pure Nature - Tea Tree Serum | Official Store</title>
- <style> body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 0; padding:40px; background: #0b0f0d; color: white; text-align: center; line-height: 1.6; }
-.banner { background: #d90429; color: white; padding:40px; font-weight: bold; font-size: 16px; position: sticky; top: 0; z-index: 1000; }
- header { background: #1b4332; padding: 25px; border-bottom: 4px solid #22c55e; box-shadow: 0 4px 15px rgba(0,0,0,0.5); }
- .container { max-width: 480px; margin: auto; padding: 15px; }        
- .trust-banner { background: linear-gradient(90deg, #1b4332, #22c55e); color: white; padding: 15px; border-radius: 15px; margin: 15px 0; font-weight: bold; font-size: 16px; border: 1px solid #ffffff33; box-shadow: 0 5px 15px rgba(34, 197, 94, 0.3); }        
-        .stock-container { background: #161b18; border-radius: 12px; padding: 15px; margin:40px 0; border: 1px solid #2d3631; }
-        .stock-bar { height: 12px; background: #333; border-radius: 6px; margin-top: 10px; overflow: hidden; border: 1px solid #444; }
-        .stock-fill { height: 100%; background: linear-gradient(90deg, #ff4d4d, #d90429); width: 4%; animation: pulse 1.5s infinite; }
-        @keyframes pulse { 0% { opacity: 1; } 50% { opacity: 0.5; } 100% { opacity: 1; } }
-       .product-img { width: 100%; border-radius: 25px; border: 3px solid #22c55e; margin-bottom: 25px; box-shadow: 0 10px 30px rgba(0,0,0,0.5); }
-             .price-box { background: #161b18; padding: 25px; border-radius: 20px; border: 2px dashed #22c55e; margin-bottom: 30px; }
-        .old-price { text-decoration: line-through; color: #888; font-size: 18px; }
-        .total-bill { font-size: 40px; color: #22c55e; font-weight: 900; margin-top: 10px; padding-top: 15px; border-top: 1px solid #333; text-shadow: 0 0 10px rgba(34, 197, 94, 0.3); }
-    .timer { color: #ff4d4d; font-weight: bold; margin: 15px 0; font-size: 18px; padding: 12px; border: 2px solid #ff4d4d; display: inline-block; border-radius: 10px; background: rgba(217, 4, 41, 0.1); }
-        .card { background: #161b18; border: 1px solid #2d3631; border-radius: 20px; padding: 25px; margin-bottom: 30px; text-align: left; }
-        .card-title { color: #22c55e; margin-top: 0; font-size: 22px; font-weight: 800; border-bottom: 1px solid #333; padding-bottom: 10px; margin-bottom: 20px; }
-        .input-group { margin-bottom: 20px; }
-        .input-label { display: block; font-size: 15px; color: #22c55e; font-weight: 800; margin-bottom: 8px; text-transform: uppercase; }
-        .input-box { width: 100%; padding: 18px; border-radius: 12px; border: 2px solid #333; background: #000; color: white; box-sizing: border-box; font-size: 16px; transition: 0.3s; }
-        .input-box:focus { border-color: #22c55e; outline: none; box-shadow: 0 0 15px rgba(34, 197, 94, 0.2); }     .btn { background: linear-gradient(180deg, #22c55e, #1b4332); color: white; padding: 22px; width: 100%; border: none; border-radius: 15px; font-size: 22px; font-weight: 900; cursor: pointer; box-shadow: 0 8px 25px rgba(34, 197, 94, 0.5); text-transform: uppercase; }
-           .review-header { display: flex; justify-content: space-between; align-items: center; margin-top: 40px; margin-bottom: 20px; padding: 0 10px; }
-        .happy-label { background: gold; color: #000; font-size: 12px; font-weight: 900; padding: 6px 12px; border-radius: 25px; text-transform: uppercase; }
-          .review-card { background: #161b18; border: 1px solid #2d3631; border-radius: 15px; padding: 20px; margin-bottom: 18px; text-align: left; }
-        .verified-tag { color: #22c55e; font-size: 11px; font-weight: bold; text-transform: uppercase; float: right; border: 1.5px solid #22c55e; padding: 3px 8px; border-radius: 5px; }
-        .stars { color: #ffcc00; font-size: 15px; margin: 8px 0; }
-        .review-text { font-style: italic; color: #eee; font-size: 15px; }
-        .sticky-footer { position: fixed; bottom: 0; left: 0; width: 100%; background: rgba(11, 15, 13, 0.95); padding: 15px; box-sizing: border-box; border-top: 1px solid #333; z-index: 1000; }
-    </style>
+<title>Pure Nature - Tea Tree Serum</title>
+ <style> 
+    body { 
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+        margin: 0; padding: 0; 
+        background: #0b0f0d; color: white; text-align: center; 
+   }    
+
+  /* Fixed Header (Chhota aur Sleek) */
+    .header-wrapper {
+        position: fixed; top: 0; width: 100%; z-index: 2000;
+        box-shadow: 0 2px 10px rgba(0,0,0,0.5);
+    }
+   .banner { 
+        background: #d90429; color: white; 
+        padding: 6px; font-weight: bold; 
+        font-size: 11px; /* Font chhota kiya */
+        letter-spacing: 0.5px;
+    }
+    header { 
+        background: #1b4332;         padding: 10px 0; /* Padding kam ki */
+        border-bottom: 2px solid #22c55e; 
+    }   
+    header h2 {
+        margin: 0; font-size: 18px; /* Likhawat chhoti ki */
+        letter-spacing: 1px; font-weight: 800;
+        }
+     
+   /* Hero Banner Section */
+   .hero-section {
+    margin-top: 75px; /* Adjust for smaller header */
+        padding: 60px 20px;
+        background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), 
+          url('https://i.postimg.cc/YCzn3Psq/1767535757518.jpg');
+        background-size: cover; background-position: center;
+        border-radius: 0 0 20px 20px;
+   }
+
+   .hero-section h1 { font-size: 28px; color: #22c55e; margin-bottom: 8px; }
+    .hero-section p { font-size: 16px; opacity: 0.9; }
+    
+   .container { max-width: 450px; margin: auto; padding: 15px; }        
+    
+   /* Trust & Stock */
+    .trust-banner { background: linear-gradient(90deg, #1b4332, #22c55e); padding: 12px; border-radius: 10px; margin: 15px 0; font-size: 14px; font-weight: bold; }
+   .stock-container { background: #161b18; border-radius: 10px; padding: 12px; margin: 15px 0; border: 1px solid #2d3631; }
+   .stock-bar { height: 8px; background: #333; border-radius: 4px; margin-top: 8px; overflow: hidden; }
+    .stock-fill { height: 100%; background: #d90429; width: 8%; animation: pulse 1.5s infinite; }
+    @keyframes pulse { 0% { opacity: 1; } 50% { opacity: 0.5; } 100% { opacity: 1; } }
+
+   /* Price Box */
+    .price-box { background: #161b18; padding: 20px; border-radius: 15px; border: 1px dashed #22c55e; margin: 20px 0; }
+    .total-bill { font-size: 32px; color: #22c55e; font-weight: 900; margin-top: 10px; border-top: 1px solid #333; padding-top: 10px; }
+   /* Input Style */
+ .input-box { width: 100%; padding: 14px; margin-bottom: 12px; border-radius: 8px; border: 1px solid #333; background: #000; color: white; font-size: 15px; box-sizing: border-box; }
+ /* Button */
+    .btn { background: linear-gradient(180deg, #22c55e, #1b4332); color: white; padding: 18px; width: 100%; border: none; border-radius: 12px; font-size: 18px; font-weight: bold; cursor: pointer; }
+   /* Reviews (Lambi List) */
+  .review-card { background: #161b18; border: 1px solid #2d3631; border-radius: 12px; padding: 15px; margin-bottom: 12px; text-align: left; }
+   .verified-tag { color: #22c55e; font-size: 10px; font-weight: bold; float: right; border: 1px solid #22c55e; padding: 2px 5px; border-radius: 4px; }
+   .stars { color: #ffcc00; font-size: 12px; margin: 5px 0; }
+   .review-text { font-style: italic; color: #ccc; font-size: 14px; margin: 5px 0; }
+  .sticky-footer { position: fixed; bottom: 0; left: 0; width: 100%; background: rgba(11, 15, 13, 0.98); padding: 12px; border-top: 1px solid #333; z-index: 1000; box-sizing: border-box; }
+ </style>
 </head>
 <body>
- <div class="banner"> 🔥 LIMITED TIME: 35% OFF + FREE GIFT ON ALL ORDERS! 🎁 </div> 
- <header><h2 style="margin:0;40px;">PURE NATURE SKINCARE</h2></header>
-    <div class="container">        
-        <div class="trust-banner">🏆 50,000+ Verified Happy Customers</div>
-<div class="stock-container">
-            <span style="font-size:40px; color: #ff4d4d; font-weight: 900; text-transform: uppercase;">Stock Status: Only 2 Units Left!</span>
-            <div class="stock-bar"><div class="stock-fill"></div></div>
-        </div>
-        <img src="https://i.postimg.cc/YCzn3Psq/1767535757518.jpg" class="product-img">        
-        <h2 style="margin:0; color:#22c55e; font-size: 32px; font-weight: 900;">Tea Tree Miracle Serum</h2>
-        <div class="timer" id="timer">Offer Ends In: 03:55:10</div>
-        <div class="price-box">
-            <div class="old-price">Original Price: Rs. 3,000</div>
-            <div style="font-size: 18px; color: #fff;">Sale Price: Rs. 1,800</div>
-            <div style="font-size: 18px; color: #ffcc00; font-weight: bold;">Delivery: Rs. 200</div>
-            <div class="total-bill">TOTAL BILL: RS. 2,000</div>
-            <p style="font-size: 14px; color: #22c55e; margin-top: 15px; font-weight: 900;">✓ SECURE CASH ON DELIVERY (COD)</p>
-        </div>
-        <div class="card" id="order-form" style="border: 3px solid #22c55e;">
-            <h3 class="card-title" style="text-align: center; color: white;">Shipping Information</h3>
-            <div class="input-group">
-                <label class="input-label">Full Name</label>
-                <input type="text" id="custName" class="input-box" placeholder="Your full name">
-            </div>
-            <div class="input-group">
-                <label class="input-label">Shipping Address</label>
-                <input type="text" id="custAddress" class="input-box" placeholder="Full address and City">
-            </div>
-            <div class="input-group">
-                <label class="input-label">WhatsApp Number</label>
-                <input type="tel" id="custPhone" class="input-box" placeholder="Active WhatsApp number">
-            </div>
-            <button class="btn" onclick="sendOrder()">Place Order Now ✅</button>
-        </div>
-        <div class="review-header">
-            <h3 style="color:#22c55e; margin:0; font-size: 24px; font-weight: 900;">CUSTOMER REVIEWS</h3>
-            <span class="happy-label">⭐ 4.9/5 Rating</span>
-        </div>      
-        <div id="reviews-list"></div>
-                <div style="height: 120px;"></div>
+
+ <div class="header-wrapper">
+    <div class="banner"> 🔥 35% OFF + FREE GIFT TODAY! 🎁 </div> 
+    <header><h2>PURE NATURE</h2></header>
+ </div>
+
+ <section class="hero-section">
+    <h1>Tea Tree Serum</h1>
+    <p>Get Clear, Glowing & Acne-Free Skin</p>
+ </section>
+
+ <div class="container">        
+    <div class="trust-banner">🏆 50,000+ Happy Customers</div>
+    
+   <div class="stock-container">
+        <span style="font-size:16px; color: #ff4d4d; font-weight: bold;">HURRY! ONLY 2 UNITS LEFT</span>
+        <div class="stock-bar"><div class="stock-fill"></div></div>
     </div>
-    <div class="sticky-footer">
-        <button class="btn" onclick="document.getElementById('order-form').scrollIntoView({behavior: 'smooth'})">Order Now - Rs. 2,000</button>
+    <img src="https://i.postimg.cc/YCzn3Psq/1767535757518.jpg" style="width:100%; border-radius:15px; border:2px solid #22c55e; margin-bottom:20px;">
+
+   <div class="price-box">
+        <div style="text-decoration: line-through; color: #888; font-size:14px;">Original Price: Rs. 3,000</div>
+        <div style="font-size: 18px;">Sale: Rs. 1,800 + Delivery</div>
+        <div class="total-bill">TOTAL: RS. 2,000</div>
     </div>
-    <script>
-        let time = 14110; 
-        setInterval(() => {
-            time--;
-            let h = Math.floor(time / 3600);
-            let m = Math.floor((time % 3600) / 60);
-            let s = time % 60;
-            document.getElementById('timer').innerHTML = `Ends In: ${h < 10 ? '0'+h : h}:${m < 10 ? '0' + m : m}:${s < 10 ? '0' + s : s}`;
-        }, 1000);
-      const reviews = [
-            {n:"Ayesha Khan", c:"Lahore", r:"Maine ye serum 1 week pehle mangwaya tha, results boht zabardast hain. Pimples bilkul khatam ho gaye hain!"},
-            {n:"Sana Malik", c:"Karachi", r:"Best quality product. Skin boht soft aur glowing ho gayi hai. Thanks Pure Nature!"},
-            {n:"Zeeshan Ali", c:"Islamabad", r:"Original product hai aur delivery boht fast thi. 2 din mein mil gaya."},
-            {n:"Hina Bibi", c:"Peshawar", r:"Dark spots kafi had tak light ho gaye hain. 100% recommended for oily skin."},
-            {n:"Mariam", c:"Multan", r:"Serum boht halka hai, skin mein foran absorb ho jata hai. No chip-chip!"},
-            {n:"Kiran Sheikh", c:"Faisalabad", r:"Best price mein best serum. Alhamdullilah result mil gaya! Packing bhi achi thi."},
-            {n:"Saad Ahmed", c:"Sialkot", r:"Original packing aur authentic product. Maine 2 aur order kar diye hain."},
-            {n:"Fatima Gul", c:"Quetta", r:"My skin feels so fresh. Best serum for acne scars. 10/10 results."},
-            {n:"Bilal Khan", c:"Rawalpindi", r:"Wife ke liye liya tha, wo boht khush hain results dekh kar. Original product."},
-            {n:"Nida Pervez", c:"Gujranwala", r:"Boht effective hai, pimples kafi kam ho gaye hain. Recommended."},
-            {n:"Sara Jaffar", c:"Hyderabad", r:"Zabardast packaging aur fast shipping. Product quality is top class."},
-            {n:"Umer Dar", c:"Sargodha", r:"Delivery time par mili aur product quality bhi achi hai. Very satisfied."}
-        ];
-        const list = document.getElementById('reviews-list');
-        reviews.forEach(rev => {
-            list.innerHTML += `<div class="review-card"><span class="verified-tag">Verified Buyer</span><strong>${rev.n} <small style="color:#888;">— ${rev.c}</small></strong><div class="stars">★★★★</div><p class="review-text">"${rev.r}"</p></div>`;
-        });
-        function sendOrder() {
-            const name = document.getElementById('custName').value;
-            const addr = document.getElementById('custAddress').value;
-            const ph = document.getElementById('custPhone').value;
-            if(name==="" || addr==="" || ph==="") { alert("Please complete shipping info!"); return; }
-            const msg = `*NEW ORDER*%0A*Item:* Tea Tree Serum%0A*Name:* ${name}%0A*Phone:* ${ph}%0A*Address:* ${addr}%0A*Bill:* Rs 2000`;
-            window.open("https://wa.me/923183757056?text=" + msg, "_blank");
-        }
-  </script>
+
+   <div class="card" id="order-form">
+        <h3 style="color:#22c55e; margin-bottom:15px;">Order Details</h3>
+        <input type="text" id="custName" class="input-box" placeholder="Your Full Name">
+        <input type="text" id="custAddress" class="input-box" placeholder="Full Address & City">
+        <input type="tel" id="custPhone" class="input-box" placeholder="WhatsApp Number">
+        <button class="btn" onclick="sendOrder()">Place Order Now ✅</button>
+    </div>
+
+   <h3 style="color:#22c55e; margin-top:40px; text-align:left; border-bottom: 1px solid #22c55e; padding-bottom:10px;">Customer Feedback</h3>
+    <div id="reviews-list"></div>
+    <div style="height: 100px;"></div>
+ </div>
+
+ <div class="sticky-footer">
+    <button class="btn" style="padding: 12px;" onclick="document.getElementById('order-form').scrollIntoView({behavior: 'smooth'})">Order Now - Rs. 2,000</button>
+ </div>
+
+ <script>
+    const reviews = [
+        {n:"Ayesha K.", c:"Lahore", r:"Maine 1 week use kiya, pimples gayab ho gaye!"},
+        {n:"Sana M.", c:"Karachi", r:"Best quality, skin boht fresh ho gayi hai."},
+        {n:"Zeeshan A.", c:"Islamabad", r:"Original product, fast delivery. 10/10."},
+        {n:"Hina B.", c:"Peshawar", r:"Dark spots light ho rahe hain, recommended!"},
+        {n:"Mariam", c:"Multan", r:"Serum boht light hai, chip-chip nahi karta."},
+        {n:"Saad A.", c:"Sialkot", r:"Achi packing thi, results bhi ache hain."},
+        {n:"Fatima G.", c:"Quetta", r:"My skin feels glowing. Thanks Pure Nature!"},
+        {n:"Bilal K.", c:"Rawalpindi", r:"Wife boht khush hain results dekh kar."},
+        {n:"Nida P.", c:"Gujranwala", r:"Acne scars ke liye best serum hai."},
+        {n:"Sara J.", c:"Hyderabad", r:"Delivery boht jaldi mil gayi, authentic product."},
+        {n:"Kiran S.", c:"Faisalabad", r:"Best price mein itna acha product nahi milta."},
+        {n:"Umer D.", c:"Sargodha", r:"Good for oily skin, results are amazing."},
+        {n:"Iqra R.", c:"Jhelum", r:"Pores tight ho gaye hain, skin smooth lagti hai."},
+        {n:"Maira W.", c:"Bahawalpur", r:"Original packing aur best results."},
+        {n:"Zainab Q.", c:"Mardan", r:"Recommended for everyone having acne issues."},
+        {n:"Tayyaba", c:"Sheikhupura", r:"Baqi sab products se ye sasta aur behtar hai."},
+        {n:"Rimsha", c:"Okara", r:"Cooling effect hai, garmiyon ke liye best hai."}
+        {n:"Ayesha K.", c:"Lahore", r:"Maine 1 week use kiya, pimples gayab ho gaye! Boht zabardast serum hai."},
+        {n:"Sana M.", c:"Karachi", r:"Best quality, skin boht fresh ho gayi hai. Original product hai."},
+        {n:"Zeeshan A.", c:"Islamabad", r:"Original product, fast delivery. 2 din mein mil gaya, packing bhi achi thi."},
+        {n:"Hina B.", c:"Peshawar", r:"Dark spots light ho rahe hain, recommended for oily skin users."},
+        {n:"Mariam", c:"Multan", r:"Serum boht light hai, chip-chip nahi karta. Garmiyo ke liye best hai."},
+        {n:"Saad A.", c:"Sialkot", r:"Achi packing thi, results bhi jaldi mil gaye. 100% satisfied."},
+        {n:"Fatima G.", c:"Quetta", r:"My skin feels glowing. Pehli bar koi product suit kiya hai face ko."},
+        {n:"Bilal K.", c:"Rawalpindi", r:"Wife ke liye order kiya tha, wo results dekh kar boht khush hain."},
+        {n:"Nida P.", c:"Gujranwala", r:"Acne scars ke liye best serum hai. Maine 2 aur order kar diye hain."},
+        {n:"Sara J.", c:"Hyderabad", r:"Delivery boht jaldi mil gayi, authentic product aur affordable price."},
+        {n:"Kiran S.", c:"Faisalabad", r:"Best price mein itna acha product nahi milta. Alhamdullilah result mil gaya."},
+        {n:"Umer D.", c:"Sargodha", r:"Good for oily skin, results are amazing. Delivery bhi on time thi."},
+        {n:"Iqra R.", c:"Jhelum", r:"Pores tight ho gaye hain, skin smooth lagti hai. 5 stars from my side."},
+        {n:"Maira W.", c:"Bahawalpur", r:"Original packing aur best results. Pure Nature is doing a great job."},
+        {n:"Zainab Q.", c:"Mardan", r:"Recommended for everyone having acne issues. Boht mild aur effective hai."},
+        {n:"Tayyaba", c:"Sheikhupura", r:"Baqi sab products se ye sasta aur behtar hai. Result 100% hai."},
+        {n:"Rimsha", c:"Okara", r:"Cooling effect hai, skin bilkul fresh ho jati hai lagane ke baad."},
+        {n:"Sobia T.", c:"Rahim Yar Khan", r:"Best results in 5 days! Acne bilkul control ho gayi hai."},
+        {n:"Amna L.", c:"Larkana", r:"Maine boht mehange serum try kiye par ye wala sab se best nikla."},
+        {n:"Hafsa B.", c:"Sahiwal", r:"Fragrance boht achi hai aur skin soft ho gayi hai. Shukriya!"},
+        {n:"Faiza V.", c:"Vehari", r:"Very fast delivery, 24 hours mein parcel mil gaya. Quality superb hai."},
+        {n:"Tahira M.", c:"Mirpur", r:"Acne marks kafi purane thay, ab halkay hona shuru ho gaye hain."},
+        {n:"Naila U.", c:"Haripur", r:"Skin oily hona band ho gayi hai jab se ye use kar rahi hoon."},
+        {n:"Bushra E.", c:"Bhakkar", r:"Original product. Customer service bhi boht achi hai."},
+        {n:"Sumaira K.", c:"Attock", r:"My favorite serum now! Face pe ek natural glow aa gaya hai."},
+        {n:"Rabia Z.", c:"Chiniot", r:"Pimples ke liye is se behtar kuch nahi, wo bhi itni kam price mein."},
+        {n:"Jaweria A.", c:"D.G. Khan", r:"Packing dekh kar hi lag raha tha original hai. Result bhi awesome hai."},
+        {n:"Saba F.", c:"Kohat", r:"Zabardast product! 100% organic lag raha hai koi side effect nahi hua."}
+    ];
+
+    const list = document.getElementById('reviews-list');
+    list.innerHTML = ''; // Pehle wala saaf karne ke liye
+    reviews.forEach(rev => {
+        list.innerHTML += `
+            <div class="review-card">
+                <span class="verified-tag">Verified</span>
+                <strong>${rev.n} <small style="color:#888;">— ${rev.c}</small></strong>
+                <div class="stars">★★★★★</div>
+                <p class="review-text">"${rev.r}"</p>
+            </div>`;
+    });
+</script>
+];
+
+    const list = document.getElementById('reviews-list');
+    reviews.forEach(rev => {
+        list.innerHTML += `
+            <div class="review-card">
+                <span class="verified-tag">Verified</span>
+                <strong>${rev.n} <small style="color:#888;">— ${rev.c}</small></strong>
+                <div class="stars">★★★★★</div>
+                <p class="review-text">"${rev.r}"</p>
+            </div>`;
+    });
+
+    function sendOrder() {
+        const name = document.getElementById('custName').value;
+        const addr = document.getElementById('custAddress').value;
+        const ph = document.getElementById('custPhone').value;
+        if(!name || !addr || !ph) { alert("Please fill all details!"); return; }
+        const msg = `*NEW ORDER*%0A*Item:* Tea Tree Serum%0A*Name:* ${name}%0A*Phone:* ${ph}%0A*Address:* ${addr}%0A*Bill:* Rs 2000`;
+        window.open("https://wa.me/923183757056?text=" + msg, "_blank");
+    }
+ </script>
 </body>
 </html>
