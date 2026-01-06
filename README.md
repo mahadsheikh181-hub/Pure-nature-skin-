@@ -99,7 +99,7 @@
 
     <div class="price-box">
         <div style="text-decoration: line-through; color: #888; font-size:14px;">Original Price: Rs. 3,000</div>
-        <div style="font-size: 18px;">Sale: Rs. 1,800 + Delivery</div>
+        <div style="font-size: 18px;">Sale: Rs. 1,500 + Delivery</div>
         <div class="total-bill">TOTAL: RS. 2,000</div>
     </div>
 
