@@ -78,7 +78,7 @@
 <body>
 
  <div class="header-wrapper">
-    <div class="banner"> 🔥 35% OFF + FREE GIFT TODAY! 🎁 </div> 
+    <div class="banner"> 🔥 40% OFF + FREE GIFT TODAY! 🎁 </div> 
     <header><h2>PURE NATURE</h2></header>
  </div>
 
@@ -100,7 +100,7 @@
     <div class="price-box">
         <div style="text-decoration: line-through; color: #888; font-size:14px;">Original Price: Rs. 3,000</div>
         <div style="font-size: 18px;">Sale: Rs. 1,500 + Delivery</div>
-        <div class="total-bill">TOTAL: RS. 2,000</div>
+        <div class="total-bill">TOTAL: RS. 1,500 </div>
     </div>
 
     <div class="card" id="order-form">
@@ -116,7 +116,7 @@
  </div>
 
  <div class="sticky-footer">
-    <button class="btn" style="padding: 12px;" onclick="document.getElementById('order-form').scrollIntoView({behavior: 'smooth'})">Order Now - Rs. 2,000</button>
+    <button class="btn" style="padding: 12px;" onclick="document.getElementById('order-form').scrollIntoView({behavior: 'smooth'})">Order Now - Rs. 1,500</button>
  </div>
 
  <script>
